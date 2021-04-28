@@ -1,0 +1,24 @@
+.slider-container {
+  width: 500px;
+  height: 425px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slider-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-panel {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.button {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}

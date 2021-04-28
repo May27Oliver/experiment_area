@@ -1,6 +1,8 @@
 import React from 'react';
 import {render} from 'react-dom';
+import Slider from './Component/Slider';
+import './index.css'
 
 import Counter from "./Counter";
 
-render(<Counter initCount={10}/>,document.getElementById("root"));
+render(<Slider />,document.getElementById("root"));
